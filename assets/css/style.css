@@ -78,8 +78,20 @@ input:active, input:focus, textarea:active, textarea:focus {
   background-color: transparent;
   border: 0px;
   outline: 0;
-
+  
+  
 }
+  
+  
+  #debtop{
+    
+  border:0px;font-weight:900;width:100%;  
+    
+  
+  
+  
+  }  
+  
 
 #rec:hover {
     color: #E91E63;
