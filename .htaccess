@@ -1,3 +1,14 @@
+# This .htaccess file is used to speed up this website
+# See https://github.com/sergeychernyshev/.htaccess
+
+
+# ----------------------------------------------------------------------
+# Proper MIME type for all files
+#
+# Copied from the HTML5 boilerplate project's .htaccess file
+# https://github.com/h5bp/html5-boilerplate/blob/master/.htaccess
+# ----------------------------------------------------------------------
+
 # JavaScript
 #   Normalize to standard type (it's sniffed in IE anyways)
 #   tools.ietf.org/html/rfc4329#section-7.2
@@ -129,38 +140,38 @@ AddType	text/vtt				vtt
 <IfModule mod_expires.c>
 	ExpiresActive On
 
-	ExpiresByType application/json			"access plus 1 year"
-	ExpiresByType application/pdf			"access plus 1 year"
+	ExpiresByType application/json			"access plus 10 days"
+	ExpiresByType application/pdf			"access plus 10 days"
 	ExpiresByType application/x-shockwave-flash	"access plus 1 year"
-	ExpiresByType image/bmp 			"access plus 1 year"
-	ExpiresByType image/gif 			"access plus 1 year"
-	ExpiresByType image/jpeg 			"access plus 1 year"
-	ExpiresByType image/png 			"access plus 1 year"
-	ExpiresByType image/svg+xml 			"access plus 1 year"
+	ExpiresByType image/bmp 			"access plus 10 days"
+	ExpiresByType image/gif 			"access plus 10 days"
+	ExpiresByType image/jpeg 			"access plus 10 days"
+	ExpiresByType image/png 			"access plus 10 days"
+	ExpiresByType image/svg+xml 			"access plus 10 days"
 	ExpiresByType image/tiff 			"access plus 1 year"
 	ExpiresByType image/vnd.microsoft.icon 		"access plus 1 year"
   	ExpiresByType image/x-icon			"access plus 1 year"
-	ExpiresByType text/css 				"access plus 1 year"
+	ExpiresByType text/css 				"access plus 10 daysr"
 	ExpiresByType video/x-flv 			"access plus 1 year"
-	ExpiresByType application/vnd.bw-fontobject	"access plus 1 year"
-	ExpiresByType application/x-font-ttf		"access plus 1 year"
-	ExpiresByType application/font-woff		"access plus 1 year"
-	ExpiresByType font/opentype			"access plus 1 year"
-	ExpiresByType image/webp			"access plus 1 year"
+	ExpiresByType application/vnd.bw-fontobject	"access plus 10 days"
+	ExpiresByType application/x-font-ttf		"access plus 10 days"
+	ExpiresByType application/font-woff		"access plus 10 days"
+	ExpiresByType font/opentype			"access plus 10 days"
+	ExpiresByType image/webp			"access plus 10 days"
 
 	# The following MIME types are in the process of registration
-	ExpiresByType application/xslt+xml		"access plus 1 year"
-	ExpiresByType image/svg+xml			"access plus 1 year"
+	ExpiresByType application/xslt+xml		"access plus 10 days"
+	ExpiresByType image/svg+xml			"access plus 10 days"
 
 	# The following MIME types are NOT registered
-	ExpiresByType application/mathml+xml		"access plus 1 year"
-	ExpiresByType application/rss+xml		"access plus 1 year"
+	ExpiresByType application/mathml+xml		"access plus 10 days"
+	ExpiresByType application/rss+xml		"access plus 10 days"
 
 	# JavaScript has various MIME types
-	ExpiresByType application/x-javascript 		"access plus 1 year"
-	ExpiresByType application/javascript 		"access plus 1 year"
-	ExpiresByType text/ecmascript 			"access plus 1 year"
-	ExpiresByType text/javascript 			"access plus 1 year"
+	ExpiresByType application/x-javascript 		"access plus 10 days"
+	ExpiresByType application/javascript 		"access plus 10 days"
+	ExpiresByType text/ecmascript 			"access plus 10 days"
+	ExpiresByType text/javascript 			"access plus 10 days"
 </IfModule>
 
 # TODO: Set Last-Modified per Google's recommendation to complete browser caching
@@ -176,3 +187,4 @@ AddType	text/vtt				vtt
 
 # Remove ETags
 FileETag None
+
