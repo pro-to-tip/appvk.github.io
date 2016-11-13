@@ -11,6 +11,7 @@ body {
   background-image:url(ben.png);
   background-size:15%;
   background-position-y: 30%;
+  background-position-x: 70%;
   background-repeat:no-repeat;
   font-size: 20px;
   margin: 0;
