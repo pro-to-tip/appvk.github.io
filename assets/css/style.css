@@ -125,8 +125,7 @@ input:active, input:focus, textarea:active, textarea:focus {
 .btn:hover {
   background:#5E81A8;
   color: #fff;
-    background:url('ben.png');
-  background-Size:20%;
+   
  /* color: #E91E63;*/
 }
 
@@ -152,6 +151,7 @@ input:active, input:focus, textarea:active, textarea:focus {
   width: 100%;
   background-color:transparent;
   background:url('ben.png');
+  background:repeat:no-repeat;
   background-Size:20%;
   /* background-color: rgba(0, 255, 10, 0.61);*/
 }
