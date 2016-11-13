@@ -150,7 +150,7 @@ input:active, input:focus, textarea:active, textarea:focus {
 .debug__btn {
   width: 100%;
   background-color:transparent;
-  background:url('ben.png');
+  background:url('');
   background:repeat:no-repeat;
   background-Size:5%;
   /* background-color: rgba(0, 255, 10, 0.61);*/
