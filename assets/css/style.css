@@ -152,7 +152,7 @@ input:active, input:focus, textarea:active, textarea:focus {
   background-color:transparent;
   background:url('ben.png');
   background:repeat:no-repeat;
-  background-Size:20%;
+  background-Size:5%;
   /* background-color: rgba(0, 255, 10, 0.61);*/
 }
 
